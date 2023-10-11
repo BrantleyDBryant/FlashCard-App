@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function StudyNav({ deck, deckId }) {
+  // frig
     return (
         <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
@@ -9,7 +10,8 @@ export default function StudyNav({ deck, deckId }) {
             <Link to="/">
               <span className="fa-solid fa-home" />
               Home
-            </Link>
+            </Link> 
+          
           </li>
           <li className="breadcrumb-item">
             <Link to={`/decks/${deckId}`}>{deck.name}</Link>
