@@ -13,6 +13,8 @@ export default function CardCreateNav({ deck }) {
                 </li>
                 <li className='breadcrumb-item'>
                     <Link to={`/decks/${deck.id}`}>{deck.name}</Link> 
+                </li>
+                <li className='breadcrumb-item'>
                     Add Card
                 </li>
             </ol>
